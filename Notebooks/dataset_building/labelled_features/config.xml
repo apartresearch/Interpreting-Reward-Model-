@@ -1,0 +1,15 @@
+<View>
+  <!-- Display the question prompt -->
+  <Header value="## {{prompt}}" />
+
+  <!-- Add Text component to link choices to the prompt -->
+  <Text name="text" value="$prompt" />
+
+  <!-- Define Choices with toName="text" to link to the Text component -->
+  <Choices name="choice" toName="text" choice="single-radio">
+    <Choice value="{{options[0]}}" />
+    <Choice value="{{options[1]}}" />
+    <Choice value="{{options[2]}}" />
+    <Choice value="{{options[3]}}" />
+  </Choices>
+</View>
