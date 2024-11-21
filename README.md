@@ -5,7 +5,7 @@
 <p>
 
 ## Official Repository for Interpreting Learned Feedback Patterns in Large Language Models
-#### By Luke Marks, Amir Abdullah, Clement Neo, Rauno Arike, Philip Torr, Fazl Barez 
+#### By Luke Marks, Amir Abdullah, Clement Neo, Rauno Arike, David krueger, Philip Torr, Fazl Barez 
 1. This repository provides scripts to train LLMs with RLHF.
 2. The repository also supports training sparse autoencoders for feature extraction on the MLP layers of LLMs.
 3. As well as classifying and probing those features.
